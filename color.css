@@ -1,0 +1,72 @@
+
+#navbarRespon{
+    background-color: crimson;
+}
+.soratra{
+    color: white;
+}
+h2{
+    color:white;
+}
+h3{
+    color:goldenrod;
+    font-size: 20px;
+}
+h5{
+    color:goldenrod;
+    font-size: 35px;
+}
+nav{
+    background-color: rgba(37, 35, 35, 0.514);
+}
+#basic-addon1{
+    background-color: crimson;
+    color: white;
+}
+header{
+    background-image: url(image/cx.png);
+    background-size: cover;
+    background-position: center;
+}
+#portfolio{
+    background-color:  white;
+    /* rgb(37, 35, 35)*/
+}
+#about{
+    background-color:rgba(37, 35, 35, 0.795);
+    /* rgba(37, 35, 35, 0.795)*/
+    border: whitesmoke;
+}
+#contact{
+    background-color: white ;
+}
+#foot{
+    background-color:  rgb(37, 35, 35,0.795);
+}
+#coprt{
+    background-color:  rgb(68, 63, 63);
+}
+.ligne{
+    background-color:rgb(37, 35, 35,0.795);
+}
+#pp{
+    background-color:rgba(0, 0, 0, 0.562);
+}
+span{
+    color: crimson;
+}
+#upp{
+    width: 35px;
+    height: 35px;
+    background-color: crimson;
+    padding-top: 5px;
+    position: fixed;
+    text-align: center;
+    right: 30px;
+    bottom: 10%;
+    border-radius: 10%;
+}
+.boo{
+    background-color: crimson;
+    border:1px solid crimson;
+}
