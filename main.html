@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Personal portfolio of Kevin Donovan, showcasing projects and contact information." />
+    <meta name="author" content="Kevin Donovan" />
+    <title>K-D</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,350" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:200,350,200italic,700italic" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="color.css">
+    <link rel="stylesheet" href="modif.css">
+    <!-- Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">K-D°</a>
+            <button id="navbarRespon" class="navbar-toggler text-uppercase font-weight-bold text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#accueil">Accueil</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Parcours</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">A propos</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead -->
+    <header class="masthead text-white">
+        <div class="home">
+            <p class="text-1">Bonjour, mon nom est</p>
+            <h2 class="text-2">Kevin <span>Donovan</span></h2>
+            <p class="text-3">Et je suis un <span>Développeur</span></p>
+            <div class="mt-6">
+                <div data-aos="flip-right">
+                    <a class="btn btn-lg btn-outline-light" href="page.html">Ma carte</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Portfolio Section -->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <h3 class="page-section-heading text-center mb-0">Parcours</h3>
+            <div class="divider-custom">
+                <div class="divider-custom-line ligne"></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div data-aos="fade-up">
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1 -->
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" id="pp">
+                                <div class="portfolio-item-caption-content text-center text-white">Origine</div>
+                            </div>
+                            <img class="img-fluid" src="image/etude.jpg" alt="Origine" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2 -->
+                    <div class="col-md-6 col-lg-6 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" id="pp">
+                                <div class="portfolio-item-caption-content text-center text-white">Etude</div>
+                            </div>
+                            <img class="img-fluid" src="image/about2.jpg" alt="Etude" />
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div class="row justify-content-center">
+                        <!-- Portfolio Item 4 -->
+                        <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" id="pp">
+                                    <div class="portfolio-item-caption-content text-center text-white">Equipe</div>
+                                </div>
+                                <img class="img-fluid" src="image/prom.jpeg" alt="Equipe" />
+                            </div>
+                        </div>
+                        <!-- Portfolio Item 5 -->
+                        <div class="col-md-6 col-lg-6 mb-5 mb-md-0">
+                            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" id="pp">
+                                    <div class="portfolio-item-caption-content text-center text-white">Début</div>
+                                </div>
+                                <img class="img-fluid" src="image/about.jpeg" alt="Début" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="page-section text-white mb-0" id="about">
+        <div class="container">
+            <h3 class="page-section-heading text-center">A propos</h3>
+            <div class="divider-custom">
+                <div class="divider-custom-line ligne"></div>
+                <div class="divider-custom-line ligne"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 ms-auto">
+                    <img src="image/photographe2.jpeg" class="img-fluid" alt="Kevin Donovan">
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">
+                        Rakotondramanana Kevin Donovan né le 9 Juillet 2002 à Antananarivo dans une famille chrétienne. 
+                        Il est le fils de Rakotondramanana Herilanto (née en 1984) et d'Andrianiaina Françia Natacha (née en 1982).
+                        <br><br>
+                        Il est principalement connu par ses exploits. La plupart des chercheurs ont abandonné l'idée du Neuralink.
+                        Nombreuses théories ont vu le jour mais rien n'a abouti. Agé seulement de 30 ans, Kevin Donovan et son équipe ont réussi à trouver la solution pour connecter le cerveau et la machine.
+                    </p>
+                    <div class="text-center">
+                        <a class="btn btn-dark btn-xl" href="#contact">Contactez moi!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <h3 class="page-section-heading text-center mb-0">Contact</h3>
+            <div class="divider-custom">
+                <div class="divider-custom-line ligne"></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="text-center">
+                <form action="https://api.staticforms.xyz/submit" method="post" id="contactForm">
+                    <input type="hidden" name="accessKey" value="API_TOKEN" />
+                    <div class="row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="form-group">
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Nom" required />
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" id="email" name="email" type="email" placeholder="Email" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="text-muted small mb-0">&copy; Kevin Donovan 2024</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9vu3gI8k8TRM7cL7jF8bXbl1okn3e6w1VRTj8DFtp0O2LTzNHvI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-QZT5+0i8t+2Z4zTVzI0tsc3V40j0zy6c3u3n2E+8EOPp0vA+GsOXs5x7zHlSMLu0" crossorigin="anonymous"></script>
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+</body>
+</html>
